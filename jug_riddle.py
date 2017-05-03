@@ -56,3 +56,5 @@ def jug(aim, max_cap, min_cap, maxi=0, mini=0):
             print(maxi, mini)
 
         inner_jug(aim, max_cap, min_cap, mini, 0)
+
+    inner_jug(aim, max_cap, min_cap, maxi, mini)
